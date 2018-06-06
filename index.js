@@ -1,6 +1,6 @@
 
 import get from 'lodash/get';
-import actionBeacon from '../actionBeacon';
+import actionBeacon from './actionBeacon';
 
 export default function asyncApiCallAction(
   apiCall = null,
